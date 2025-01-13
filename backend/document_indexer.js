@@ -9,25 +9,37 @@ function searchDocs(question) {
     
     // Search logic for Segment
     if (question.toLowerCase().includes("segment")) {
-        answer = segmentDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        const foundDoc = segmentDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        if (foundDoc) {
+            answer = foundDoc.answer;
+        }
     }
     
     // Search logic for mParticle
     else if (question.toLowerCase().includes("mparticle")) {
-        answer = mParticleDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        const foundDoc = mParticleDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        if (foundDoc) {
+            answer = foundDoc.answer;
+        }
     }
     
     // Search logic for Lytics
     else if (question.toLowerCase().includes("lytics")) {
-        answer = lyticsDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        const foundDoc = lyticsDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        if (foundDoc) {
+            answer = foundDoc.answer;
+        }
     }
     
     // Search logic for Zeotap
     else if (question.toLowerCase().includes("zeotap")) {
-        answer = zeotapDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        const foundDoc = zeotapDocs.find(doc => question.toLowerCase().includes(doc.keyword));
+        if (foundDoc) {
+            answer = foundDoc.answer;
+        }
     }
     
-    return answer || "Sorry, I couldn't find an answer to your question.";
+    return { answer }; // Ensure it's returned as an object with "answer" property
 }
 
 module.exports = { searchDocs };
