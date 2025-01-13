@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "user data",
+    "answer": "In Segment, user data is sent using the 'identify' method. This method associates attributes like user ID and traits to a user profile, allowing you to track them across devices."
+  },
+  {
+    "keyword": "event tracking",
+    "answer": "In Segment, you can track events by using the 'track' method. Each event you send can include properties that describe the action performed by the user."
+  },
+  {
+    "keyword": "events",
+    "answer": "In Segment, events are tracked by sending data through the Segment API using the 'track' method. This method allows you to send custom event data for user actions."
+  },
+  {
+    "keyword": "source",
+    "answer": "To set up a new source in Segment, navigate to the 'Sources' tab and click 'Add Source'. Then, select the type of source you want to add and follow the provided instructions."
+  },
+  {
+    "keyword": "profile",
+    "answer": "To create a user profile in Segment, navigate to the profiles section and click 'Create Profile'."
+  },
+  {
+    "keyword": "data tracking",
+    "answer": "In Segment, data tracking involves sending events to Segment through the API. You can track user actions like clicks, page views, or custom events."
+  },
+  {
+    "keyword": "source connection",
+    "answer": "In Segment, you can connect a new source by selecting 'Add Source' and choosing the platform you want to integrate (e.g., website, app, etc.). Follow the prompts to complete the integration."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "keyword": "audience activation",
+    "answer": "In Zeotap, audience activation allows you to target and reach users based on the segments you've created. Use the 'Audience Activation' feature to send targeted campaigns."
+  },
+  {
+    "keyword": "source mapping",
+    "answer": "In Zeotap, source mapping allows you to match incoming data from different sources with your existing customer data. This can be done in the 'Mapping' section of the platform."
+  },
+  {
+    "keyword": "data stream",
+    "answer": "In Zeotap, you can create a new data stream by going to the 'Data Streams' section, clicking 'Add New Stream', and following the steps to connect your data source."
+  },
+  {
+    "keyword": "integration",
+    "answer": "To integrate Zeotap with your data sources, navigate to the integrations page and follow the setup instructions."
+  },
+  {
+    "keyword": "audience",
+    "answer": "You can build audience segments in Zeotap by using the Audience Builder tool on the dashboard."
+  }
+]

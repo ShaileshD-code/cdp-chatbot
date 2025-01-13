@@ -1,0 +1,9 @@
+
+#### **3.2: `.gitignore`**
+
+This file ensures that unnecessary files are not tracked by Git.
+
+```gitignore
+node_modules/
+*.log
+*.env

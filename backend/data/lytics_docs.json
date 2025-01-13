@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "segment",
+    "answer": "To build a segment in Lytics, go to the 'Segments' section, click 'Create New Segment', and define the rules for your segment."
+  },
+  {
+    "keyword": "audience criteria",
+    "answer": "In Lytics, you can define audience criteria based on user actions, demographic data, or custom events. This is done when creating or editing an audience."
+  },
+  {
+    "keyword": "audience conditions",
+    "answer": "In Lytics, you can apply conditions to audiences to segment users based on behavior, demographics, or events. Go to the 'Audiences' section and add rules to filter the desired users."
+  },
+  {
+    "keyword": "data export",
+    "answer": "In Lytics, data can be exported by navigating to the 'Export' section and selecting the data you wish to download. You can export to CSV or integrate with third-party platforms."
+  },
+  {
+    "keyword": "audience segmentation",
+    "answer": "In Lytics, audience segmentation allows you to group users based on specific criteria, such as behavior, actions, or demographics. This can be done in the 'Audiences' tab."
+  },
+  {
+    "keyword": "audience",
+    "answer": "To create an audience in Lytics, go to the Audiences section and click 'Create Audience'."
+  },
+  {
+    "keyword": "profile",
+    "answer": "To manage user profiles in Lytics, go to the Profiles section and edit the profile data."
+  }
+]

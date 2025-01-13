@@ -1,1 +1,2 @@
 # cdp-chatbot
+This project is a simple chatbot backend that answers how-to questions related to Segment, mParticle, Lytics, and Zeotap. It is built using Node.js and Express, and it matches user queries with predefined keywords in a JSON file to return the appropriate answers. There is no use of Natural Language Processing (NLP) in this version; it uses basic string matching.

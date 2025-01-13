@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "data sync",
+    "answer": "In mParticle, data synchronization can be performed through integrations with various sources. To set up synchronization, navigate to 'Data Sync' and select the integration options."
+  },
+  {
+    "keyword": "user profile update",
+    "answer": "In mParticle, user profiles can be updated by sending new data using the 'Identify' method. This will overwrite existing data with the new attributes provided."
+  },
+  {
+    "keyword": "profile creation",
+    "answer": "In mParticle, user profiles can be created by sending the 'Identify' call with user-specific attributes like email, name, or other identifying information."
+  },
+  {
+    "keyword": "source",
+    "answer": "To integrate a new source with mParticle, go to the Sources tab and select 'Add Source'."
+  },
+  {
+    "keyword": "profile",
+    "answer": ",In mParticle, you can create a new user profile by navigating to the profiles section."
+  },
+  {
+    "keyword": "user identification",
+    "answer": "To identify a user in mParticle, use the 'Identify' API to send attributes like user ID, email, and other relevant user data."
+  },
+  {
+    "keyword": "source setup",
+    "answer": "In mParticle, to set up a new source, navigate to the 'Sources' section, select 'Add Source', and choose the source type you want to integrate (e.g., mobile app, web, etc.)."
+  }
+]
